@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SCRUM-843] [iOS][UC 3.2] The dialog doesn&#39;t display after tapping on the field with line in the timetable</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://gpsolutions.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SCRUM-843]&nbsp;<a href="https://gpsolutions.atlassian.net/browse/SCRUM-843">[iOS][UC 3.2] The dialog doesn&#39;t display after tapping on the field with line in the timetable</a>
+            <span class="subText">
+               Created: 09/Apr/25                   &nbsp;Updated: 28/May/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://gpsolutions.atlassian.net/secure/BrowseProject.jspa?id=10000">MaaS KAPT Project</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                id="word_reporter_712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aadfdd2e1-516a-44d7-8455-d88e4f742f04">
+                    Victoryia Rakovich
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                id="word_assignee_712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aadfdd2e1-516a-44d7-8455-d88e4f742f04">
+                    Victoryia Rakovich
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-12777-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            S6, iOS                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0h
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            1h
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            1h
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://gpsolutions.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    AR_dialog.mp4 &nbsp;&nbsp;&nbsp;
+                                    <img src="https://gpsolutions.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20250409-124448.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://gpsolutions.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    AR_dialog_reproduced.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://gpsolutions.atlassian.net/browse/SCRUM-325">
+                     SCRUM-325                 </a>
+            </td>
+            <td>
+                [iOS] UC-3.2 Layout creation
+            </td>
+            <td>
+                Bugfix
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-12777-value" class="value" bgcolor="#ffffff" width="80%">      0|i0058e:i
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-12777-value" class="value" bgcolor="#ffffff" width="80%">KA Sprint 4, KA Sprint 6, KA Sprint 7, KA Sprint 8</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Device</b>:</p>
+
+<p>13 Pro max,<br/>
+iOS 17.6.1</p>
+
+<p><b>Preconditions:</b></p>
+
+<p>The User is on the main page</p>
+
+<p><b>Steps:</b></p>
+
+<ol>
+	<li>Tap on the Bus  icon</li>
+	<li>Pull up the bottom sheet</li>
+	<li>Tap on the field with line in the timetable</li>
+</ol>
+
+
+<p><b>Actual result:</b> </p>
+
+<p>The dialog doesn't display</p>
+
+<p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/10785?stream=true" height="380" type="video/mp4" width="480" ><param name="data" value="/rest/api/3/attachment/content/10785?stream=true"/><param name="src" value="/rest/api/3/attachment/content/10785?stream=true"/><param name="type" value="video/mp4"/><embed height="380" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/10785?stream=true" type="video/mp4" width="480" /></object></div></p>
+
+<p><b>Expected result:</b> </p>
+
+<p>The dialog displays</p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/10786" alt="image-20250409-124448.png" width="41.666666666666664%" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10992"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:958462c8-3288-48cb-ad66-2d5223e15211"
+                id="word_commented_712020:958462c8-3288-48cb-ad66-2d5223e15211"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A958462c8-3288-48cb-ad66-2d5223e15211">
+                    Shovkolias Ihor
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">14/Apr/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10992"><td bgcolor="#ffffff">
+            <p><a href="https://dev.azure.com/ThiqahDev/RCRC%20MAAS%20Riyadh/_workitems/edit/626423" title="smart-link" class="external-link" rel="nofollow noreferrer">https://dev.azure.com/ThiqahDev/RCRC%20MAAS%20Riyadh/_workitems/edit/626423</a> </p>
+        </td></tr>
+                <tr id="comment-header-11021"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                id="word_commented_712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aadfdd2e1-516a-44d7-8455-d88e4f742f04">
+                    Victoryia Rakovich
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">15/Apr/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-11021"><td bgcolor="#ffffff">
+            <p>❌ not fixed</p>
+
+<p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/11089?stream=true" height="380" type="video/mp4" width="480" ><param name="data" value="/rest/api/3/attachment/content/11089?stream=true"/><param name="src" value="/rest/api/3/attachment/content/11089?stream=true"/><param name="type" value="video/mp4"/><embed height="380" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/11089?stream=true" type="video/mp4" width="480" /></object></div></p>
+
+        </td></tr>
+            </table>
+Generated at Mon Jun 02 08:52:07 UTC 2025 by Lyazzat Amanbaeva using Jira 1001.0.0-SNAPSHOT#100283-rev:1af5a38be4ae959fa5a6605f7d9e09559f10c56a.
+
+</body>
+</html>

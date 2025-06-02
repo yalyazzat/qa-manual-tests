@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SCRUM-1176] [iOS][UC 4.10] The bottom sheet with Home location doesn&#39;t close when tapping outside the bottom sheet</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://gpsolutions.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SCRUM-1176]&nbsp;<a href="https://gpsolutions.atlassian.net/browse/SCRUM-1176">[iOS][UC 4.10] The bottom sheet with Home location doesn&#39;t close when tapping outside the bottom sheet</a>
+            <span class="subText">
+               Created: 26/Apr/25                   &nbsp;Updated: 28/May/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://gpsolutions.atlassian.net/secure/BrowseProject.jspa?id=10000">MaaS KAPT Project</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                id="word_reporter_712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aadfdd2e1-516a-44d7-8455-d88e4f742f04">
+                    Victoryia Rakovich
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:c7715ace-a391-43da-b560-7b15727b455f"
+                id="word_assignee_712020:c7715ace-a391-43da-b560-7b15727b455f"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac7715ace-a391-43da-b560-7b15727b455f">
+                    Dzmitry Hryshkevich
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-13874-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            S6, iOS                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0h
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            2h
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://gpsolutions.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    AR_swiping_b_sh.mp4 &nbsp;&nbsp;&nbsp;
+                                    <img src="https://gpsolutions.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20250426-141609.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://gpsolutions.atlassian.net/browse/SCRUM-587">
+                     SCRUM-587                 </a>
+            </td>
+            <td>
+                UC-4.10 View favorite locations
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-13874-value" class="value" bgcolor="#ffffff" width="80%">      0|i0073b:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-13874-value" class="value" bgcolor="#ffffff" width="80%">KA Sprint 6, KA Sprint 7, KA Sprint 8</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Device</b>:</p>
+
+<p>iPhone 15</p>
+
+<p>iOS 18.3</p>
+
+<p><b>Preconditions:</b></p>
+
+<ul>
+	<li>The user is logged in</li>
+	<li>The user is on the ‘Favorites’ tab</li>
+	<li>The location 'Home' has been added to favorites</li>
+</ul>
+
+
+<p><b>Steps:</b></p>
+
+<ol>
+	<li>Tap on the "Home" button</li>
+	<li>Tap outside the bottom sheet</li>
+</ol>
+
+
+<p><b>Actual result:</b></p>
+
+<p>The bottom sheet with Home location doesn't close when tapping outside the bottom sheet</p>
+
+<p><div class="embeddedObject"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" data="/rest/api/3/attachment/content/11743?stream=true" height="380" type="video/mp4" width="480" ><param name="data" value="/rest/api/3/attachment/content/11743?stream=true"/><param name="src" value="/rest/api/3/attachment/content/11743?stream=true"/><param name="type" value="video/mp4"/><embed height="380" pluginspage="https://www.apple.com/quicktime/download/" src="/rest/api/3/attachment/content/11743?stream=true" type="video/mp4" width="480" /></object></div></p>
+
+<p><b>Expected result:</b></p>
+
+<p>The bottom sheet is closed when tapping outside the bottom sheet - <a href="https://gpsolutions.atlassian.net/wiki/spaces/SD/pages/65863681/UC-4.10+View+favorite+locations#:~:text=In%20case%20the%20user,hides%20the%20bottom%20sheet." class="external-link" rel="nofollow noreferrer">Requirements</a></p>
+
+<p><span class="image-wrap" style=""><img src="/rest/api/3/attachment/content/11744" alt="image-20250426-141609.png" width="58.33333333333333%" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-11561"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                id="word_commented_712020:adfdd2e1-516a-44d7-8455-d88e4f742f04"
+                href="https://gpsolutions.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aadfdd2e1-516a-44d7-8455-d88e4f742f04">
+                    Victoryia Rakovich
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/Apr/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-11561"><td bgcolor="#ffffff">
+            <p><a href="https://dev.azure.com/ThiqahDev/RCRC%20MAAS%20Riyadh/_backlogs/backlog/RCRC%20MAAS%20Riyadh%20Team/Backlog%20items?workitem=631727" class="external-link" rel="nofollow noreferrer">https://dev.azure.com/ThiqahDev/RCRC MAAS Riyadh/_backlogs/backlog/RCRC MAAS Riyadh Team/Backlog items?workitem=631727</a></p>
+        </td></tr>
+            </table>
+Generated at Mon Jun 02 08:52:34 UTC 2025 by Lyazzat Amanbaeva using Jira 1001.0.0-SNAPSHOT#100283-rev:1af5a38be4ae959fa5a6605f7d9e09559f10c56a.
+
+</body>
+</html>
