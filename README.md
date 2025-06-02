@@ -1,8 +1,8 @@
 # qa-manual-tests
 This repository contains manual QA artifacts for the EasyFin project:
-- ✅ Test Cases (Excel)
+- ✅ Test Cases (Excel/PDF)
 - 📋 Checklists (Smoke, Regression)
-- 🐞 Bug Reports (Markdown/PDF)
+- 🐞 Bug Reports (Excel/Word)
 
 ## Structure
 - `/test-cases`: All documented use case-based tests
